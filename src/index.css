@@ -1,0 +1,47 @@
+@import "tailwindcss";
+@import "./style/fonts.css";
+
+@theme {
+  --font-inter: "Inter", sans-serif;
+  --color-main: #44a194;
+  --color-blacksoft: #262626;
+  --color-graysoft: #b6ae9f;
+}
+
+::-webkit-scrollbar {
+  @apply w-2;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-[#f1f1f1];
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-main rounded-4xl;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-main/90;
+}
+
+.hover-underline {
+  @apply relative inline-block;
+}
+
+.hover-underline::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background: #44a194;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease;
+}
+
+.hover-underline:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
