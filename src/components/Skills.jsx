@@ -10,7 +10,7 @@ import git from "../assets/icons/git.webp";
 
 export default function Skills() {
   return (
-    <section id="skills" class="py-20 bg-white">
+    <section id="skills" class="py-20 bg-gray-50">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-16" data-aos="fade-up">
           <h2 class="text-4xl font-bold text-blacksoft mb-4">

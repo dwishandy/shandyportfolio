@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center bg-linear-to-br from-main/10 to-purple-50 pt-16"
+      className="min-h-screen flex items-center justify-center bg-white"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div data-aos="fade-up" data-aos-delay="100">

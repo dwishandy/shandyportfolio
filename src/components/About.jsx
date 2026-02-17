@@ -2,7 +2,10 @@ import mypict from "../assets/img/mypict.webp";
 
 export default function About() {
   return (
-    <section id="about" className="py-20 bg-white">
+    <section
+      id="about"
+      className="py-20  bg-linear-to-br from-main/10 to-purple-50"
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16" data-aos="fade-up">
           <h2 className="text-4xl font-bold text-blacksoft mb-4">About Me</h2>
