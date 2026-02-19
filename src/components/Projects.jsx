@@ -132,7 +132,7 @@ export default function Projects() {
                   {project.tech.map((item, i) => (
                     <span
                       key={i}
-                      className={`px-4 py-0.5 rounded-full text-xs md:text-sm ${
+                      className={`px-4 py-0.5 rounded-full text-xs ${
                         techColors[item] || "bg-gray-100 text-gray-600"
                       }`}
                     >
