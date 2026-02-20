@@ -4,8 +4,8 @@ import wordpresspdf from "../assets/pdf/wordpress.pdf";
 import wordpressimg from "../assets/certificates/wordpress.webp";
 import jspdf from "../assets/pdf/js.pdf";
 import jsimg from "../assets/certificates/js.webp";
-import cspdf from "../assets/pdf/cs.pdf";
-import csimg from "../assets/certificates/cs.webp";
+import uiuxpdf from "../assets/pdf/uiux.pdf";
+import uiuximg from "../assets/certificates/uiux.webp";
 import lks24pdf from "../assets/pdf/lks24.pdf";
 import lks24img from "../assets/certificates/lks24.webp";
 import lks22pdf from "../assets/pdf/lks22.pdf";
@@ -27,6 +27,15 @@ export default function Certificates() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <ListCertificates
+            delay="200"
+            img={uiuximg}
+            title="Weekly Class UI/UX GDGoC UIN Jakarta"
+            publisher="GDGoC UIN Syarif Hidayatullah Jakarta"
+            pdf={uiuxpdf}
+            date="Jul 2025"
+          ></ListCertificates>
+
+          <ListCertificates
             delay="100"
             img={webdasarimg}
             title="Belajar Dasar Pemrograman Web"
@@ -41,15 +50,6 @@ export default function Certificates() {
             title="PRDV401: Introduction to JavaScript I"
             publisher="Saylor Academy"
             pdf={jspdf}
-            date="Jul 2025"
-          ></ListCertificates>
-
-          <ListCertificates
-            delay="200"
-            img={csimg}
-            title="CS101: Introduction to Computer Science I"
-            publisher="Saylor Academy"
-            pdf={cspdf}
             date="Jul 2025"
           ></ListCertificates>
 
