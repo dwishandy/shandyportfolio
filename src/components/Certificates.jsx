@@ -41,7 +41,7 @@ export default function Certificates() {
             title="Belajar Dasar Pemrograman Web"
             publisher="Dicoding"
             pdf={webdasarpdf}
-            date="Jan 2026"
+            date="Dec 2025"
           ></ListCertificates>
 
           <ListCertificates
