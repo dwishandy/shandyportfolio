@@ -29,10 +29,10 @@ export default function Certificates() {
           <ListCertificates
             delay="200"
             img={uiuximg}
-            title="Weekly Class UI/UX GDGoC UIN Jakarta"
+            title="Weekly Class UI/UX"
             publisher="GDGoC UIN Syarif Hidayatullah Jakarta"
             pdf={uiuxpdf}
-            date="Jul 2025"
+            date="Feb 2026"
           ></ListCertificates>
 
           <ListCertificates
@@ -47,7 +47,7 @@ export default function Certificates() {
           <ListCertificates
             delay="150"
             img={jsimg}
-            title="PRDV401: Introduction to JavaScript I"
+            title="Introduction to JavaScript I"
             publisher="Saylor Academy"
             pdf={jspdf}
             date="Jul 2025"
@@ -56,7 +56,7 @@ export default function Certificates() {
           <ListCertificates
             delay="250"
             img={wordpressimg}
-            title="Build a Full Website using WordPress"
+            title="Build a Website using WordPress"
             publisher="Coursera Project Network"
             pdf={wordpresspdf}
             date="Jun 2025"
@@ -66,7 +66,7 @@ export default function Certificates() {
             delay="150"
             img={lks24img}
             title="Top 6 LKS Web Technologies"
-            publisher="Dinas Pendidikan dan Kebudayaan Kabupaten Tangerang"
+            publisher="Dinas Pendidikan dan Kebudayaan Kab. Tangerang"
             pdf={lks24pdf}
             date="Dec 2024"
           ></ListCertificates>
@@ -75,7 +75,7 @@ export default function Certificates() {
             delay="150"
             img={lks22img}
             title="Top 15 LKS Web Technologies"
-            publisher="Dinas Pendidikan dan Kebudayaan Kabupaten Tangerang"
+            publisher="Dinas Pendidikan dan Kebudayaan Kab. Tangerang"
             pdf={lks22pdf}
             date="Nov 2022"
           ></ListCertificates>
