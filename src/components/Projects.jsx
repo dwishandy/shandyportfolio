@@ -16,7 +16,7 @@ export default function Projects() {
       links: [
         {
           label: "Live Demo",
-          url: "#",
+          url: "https://semuaberhakbisa.vercel.app/",
         },
         {
           label: "Link Figma",
@@ -44,13 +44,13 @@ export default function Projects() {
       image: project3,
       description:
         "A static website for the profile of a cooperative that sells goods and services. Created using WordPress and Elementor. Sales are directed to Shopee using links.",
-      tech: ["Figma", "WordPress", "Elementor"],
+      tech: ["WordPress", "Elementor", "Figma"],
       links: [
+        { label: "Live Demo", url: "https://citamapedia.com/" },
         {
           label: "Link Figma",
           url: "https://www.figma.com/design/d8sUjJTrYdD53shx30pW3f/Project---CITAMA?node-id=0-1&t=lTvSebvWQrjTWY33-1",
         },
-        { label: "Live Demo", url: "citamapedia.com" },
       ],
     },
 
